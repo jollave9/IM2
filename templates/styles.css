@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cover {
+  margin: 0;
+  padding: 0;
+  background-image: url("coverphoto.jpg");
+  /* The image used */
+  background-color: #cccccc;
+  /* Used if the image is unavailable */
+  height: 100vh;
+  /* You must set a specified height */
+  background-position: 50% 35%;
+  /* Center the image */
+  background-repeat: no-repeat;
+  /* Do not repeat the image */
+  background-size: cover;
+  /* Resize the background image to cover the entire container */
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container {
+  text-align: center;
+  width: 70%;
+  height: 40%;
+  font-family: 'Jura', sans-serif;
+}
+
+.heading {
+  color: white;
+  font-size: 4em;
+  margin: 20px 0;
+}
+
+.subheading {
+  color: white;
+  font-size: 1.5em;
+  margin: 40px 0;
+  font-weight: bold;
+}
+
+.subheadingspan {
+  background-color: black;
+  padding: 0 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.signin {
+  color: white;
+  background-color: #297eb6;
+}
+
+.signup {
+  color: black;
+}
+
+.firstword {
+  background-color: #991a68;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+
+b {
+  background-color: #f851b8;
+  padding: 0 15px;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=styles.css.map */

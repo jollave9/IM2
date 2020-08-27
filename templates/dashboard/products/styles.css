@@ -1,0 +1,72 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.drawer-modal {
+  display: none;
+  position: fixed;
+  z-index: 1111;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.drawer-modal .drawer {
+  display: none;
+  color: white;
+  width: 20%;
+  height: 100vh;
+  background-color: #363636;
+}
+
+.drawer-modal .drawer ul {
+  display: block;
+  margin: 0 auto;
+  padding: 0;
+  list-style: none;
+}
+
+.drawer-modal .drawer li {
+  padding: 5px;
+  margin: 10px;
+}
+
+.drawer-modal .drawer li a {
+  text-decoration: none;
+  color: white;
+}
+
+.drawer-modal .drawer #dashboard {
+  margin-left: 30px;
+}
+
+.drawer-modal .drawer #dashboardSub {
+  margin-left: 30px;
+}
+
+.table-div {
+  width: 75%;
+  height: 75vh;
+  margin: auto;
+  overflow-y: auto;
+}
+
+.company-logo {
+  width: 150px;
+  margin: auto;
+  padding-top: 20px;
+  text-align: center;
+}
+
+#dashboard {
+  cursor: pointer;
+}
+
+#dashboardSub {
+  display: none;
+  cursor: pointer;
+}
+/*# sourceMappingURL=styles.css.map */

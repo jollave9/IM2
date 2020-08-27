@@ -1,0 +1,60 @@
+*{
+    padding:0;
+    margin:0;
+}
+.drawer-modal{
+    display:none;
+    position: fixed;
+    z-index: 1111;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba($color: #000000, $alpha: 0.3);
+    .drawer{
+        display:none;
+        color: white;
+        width: 20%;
+        height: 100vh;
+        background-color: rgb(54, 54, 54);
+        ul{
+            display: block;
+            margin:0 auto;
+            padding: 0;
+            list-style: none;
+        }
+        li{
+            padding:5px;
+            margin:10px;
+            a{
+                text-decoration: none;
+                color:white;
+            }
+        }
+        #dashboard{
+            margin-left: 30px;
+        }
+        #dashboardSub{
+            margin-left: 30px;
+        }
+    }
+}
+.table-div{
+    width: 75%;
+    height:75vh;
+    margin: auto;
+    overflow-y: auto;
+}
+.company-logo{
+    width: 150px;
+    margin: auto;
+    padding-top: 20px;
+    text-align: center;
+}
+#dashboard{
+    cursor: pointer;
+}
+#dashboardSub{
+    display: none;
+    cursor: pointer;
+}
